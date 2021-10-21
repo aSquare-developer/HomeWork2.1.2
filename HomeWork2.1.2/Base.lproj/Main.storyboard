@@ -23,18 +23,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="130" height="130.33333333333334"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="3wu-ot-8NR"/>
                                             <constraint firstAttribute="width" secondItem="XPi-pK-Nxe" secondAttribute="height" multiplier="1:1" id="W1o-Ve-uTn"/>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="ZLH-Sy-uqU"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RbB-Ja-5vC" userLabel="Yellow View">
                                         <rect key="frame" x="0.0" y="150.33333333333334" width="130" height="130.00000000000003"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="9zE-HL-cp4"/>
                                             <constraint firstAttribute="width" secondItem="RbB-Ja-5vC" secondAttribute="height" multiplier="1:1" id="Je2-zc-eC6"/>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="pOW-dX-0to"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JZq-lr-KAb" userLabel="Green View">
@@ -42,8 +38,6 @@
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="JZq-lr-KAb" secondAttribute="height" multiplier="1:1" id="1zr-De-zGt"/>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="cCg-iY-gwd"/>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="j0m-5N-mvk"/>
                                         </constraints>
                                     </view>
                                 </subviews>

@@ -18,7 +18,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupViewElements()
+        redView.alpha = 0.3
+        yellowView.alpha = 0.3
+        greenView.alpha = 0.3
+        
+        button.layer.cornerRadius = 10
+        button.setTitle("START", for: .normal)
         
     }
 
@@ -44,20 +49,18 @@ class ViewController: UIViewController {
         
     }
     
-    func setupViewElements() {
-        
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         redView.layer.cornerRadius = redView.bounds.height / 2
-        redView.alpha = 0.3
-        
-        yellowView.layer.cornerRadius = yellowView.bounds.height / 2
-        yellowView.alpha = 0.3
-        
+        yellowView.layer.cornerRadius = yellowView.frame.size.height / 2
         greenView.layer.cornerRadius = greenView.bounds.height / 2
-        greenView.alpha = 0.3
-        
-        button.layer.cornerRadius = 10
-        button.setTitle("START", for: .normal)
-        
     }
+    
+//    override func viewWillLayoutSubviews() {
+//        redView.layer.cornerRadius = redView.bounds.height / 2
+//        yellowView.layer.cornerRadius = yellowView.frame.size.height / 2
+//        greenView.layer.cornerRadius = greenView.bounds.height / 2
+//    }
+    
 }
 
